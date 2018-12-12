@@ -1,0 +1,1 @@
+cmd_/media/sf_inout/2/ram_block.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /media/sf_inout/2/ram_block.ko /media/sf_inout/2/ram_block.o /media/sf_inout/2/ram_block.mod.o ;  true
